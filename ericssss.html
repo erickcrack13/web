@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Revista Digital Creativa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        body {
+            background: linear-gradient(120deg, #222, #444);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            padding: 10px 25px;
+            border-radius: 25px;
+            background: linear-gradient(45deg, #ff6b6b, #f06595);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        .hero {
+            padding: 60px 20px;
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            font-size: 2rem;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        }
+        .articles, .designs {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 40px;
+        }
+        .article, .design {
+            background: white;
+            color: #333;
+            width: 300px;
+            padding: 20px;
+            border-radius: 12px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .article:hover, .design:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+        .about, .contact {
+            padding: 50px;
+            text-align: center;
+            background: linear-gradient(45deg, #2575fc, #6a11cb);
+            margin-top: 20px;
+            border-radius: 12px;
+            color: white;
+        }
+        footer {
+            padding: 20px;
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>Revista Digital Creativa</header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#articles">Artículos</a>
+        <a href="#designs">Diseños</a>
+        <a href="#about">Nosotros</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    
+    <!-- Sección de Introducción -->
+    <section class="hero" id="home">
+        <h2>Bienvenido a la Revista Digital Más Innovadora</h2>
+    </section>
+    
+    <!-- Sección de Artículos -->
+    <section id="articles" class="articles">
+        <div class="article">
+            <h3>Artículo 1</h3>
+            <p>Explora contenido fascinante y tendencias del momento.</p>
+        </div>
+        <div class="article">
+            <h3>Artículo 2</h3>
+            <p>Noticias impactantes y novedades que te sorprenderán.</p>
+        </div>
+        <div class="article">
+            <h3>Artículo 3</h3>
+            <p>Contenido interactivo que te hará volver por más.</p>
+        </div>
+    </section>
+
+    <!-- Nueva sección "Diseños de Revistas Digitales" -->
+    <section id="designs" class="designs">
+        <div class="design">
+            <img src="https://via.placeholder.com/300x200" alt="Diseño 1">
+            <h3>Diseño 1</h3>
+            <p>Un concepto moderno y minimalista para revistas digitales.</p>
+        </div>
+        <div class="design">
+            <img src="https://via.placeholder.com/300x200" alt="Diseño 2">
+            <h3>Diseño 2</h3>
+            <p>Colores vibrantes y tipografía innovadora para impactar.</p>
+        </div>
+        <div class="design">
+            <img src="https://via.placeholder.com/300x200" alt="Diseño 3">
+            <h3>Diseño 3</h3>
+            <p>Ideal para artículos de tecnología y tendencias.</p>
+        </div>
+    </section>
+
+    <!-- Página "Nosotros" -->
+    <section id="about" class="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una revista digital dedicada a informar, educar y entretener. Nuestro contenido está diseñado para los amantes de la información de calidad y las tendencias actuales.</p>
+    </section>
+
+    <!-- Página "Contacto" -->
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna consulta, escríbenos a: contacto@revistadigital.com</p>
+    </section>
+
+    <footer>&copy; 2025 Revista Digital Creativa</footer>
+</body>
+</html>
